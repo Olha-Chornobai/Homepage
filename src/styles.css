@@ -110,6 +110,9 @@ h2 {
     padding: 120px 60px; 
 }
 
+.photo {
+    border-radius: 18px;
+}
 
 
 @media (max-width: 900px) {
@@ -123,6 +126,12 @@ h2 {
     .hero {
     padding: 80px 20px;
     }
+
+    .about-section {
+    text-align: center;
+    padding: 0;
+}
+
     .project-desciption {
     padding: 0;
     text-align: center;
