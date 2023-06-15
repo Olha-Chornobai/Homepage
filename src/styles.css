@@ -129,6 +129,41 @@ h2 {
     border-radius: 18px;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav li.active a {
+    color: var(--branding-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
     .hero h1 {
